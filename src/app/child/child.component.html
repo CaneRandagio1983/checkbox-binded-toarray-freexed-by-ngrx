@@ -1,9 +1,9 @@
 <div *ngFor="let brand of brands">
     <label>
         <input type="checkbox" 
-        value="{{brand.name}}" 
-        [(ngModel)]="brand.checked"
-        (change)="checkboxChange($event)">
+            value="{{brand.name}}" 
+            [(ngModel)]="brand.checked"
+            (change)="checkboxChange($event)">
         {{brand.name}}
     </label>
 </div>
